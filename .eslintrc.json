@@ -117,5 +117,11 @@
           }
       ],
       "padding-line-between-statements": "off"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["!jest.config.mjs","!jest.setup.js","!tailwind.config.js"]
+    }
+  ]
+
 }

@@ -1,0 +1,30 @@
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1.4rem;
+    background: var(--main-color);
+    border-radius: 2rem;
+    box-shadow: 0 0 0.5rem var(--main-color);
+    font-size: 1.1rem;
+    color: var(--second-bg-color);
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    transition: 0.5s ease;
+}
+.btn:hover {
+    box-shadow: none;
+}
+
+.text-main {
+    color: var(--main-color);
+}
+
+.title {
+    color: var(--main-color);
+}
+
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
